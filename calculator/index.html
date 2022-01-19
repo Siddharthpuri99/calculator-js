@@ -2,55 +2,54 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = stylesheet href = "style.css">
-    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>JAVASCRIPT Practice</title>
 </head>
 <body>
-    <div class="container">
-        <h1>Calculator by SIDDHARTH PURI</h1>
-        <div class="calculator">
-
-        
-            <input type = "text" name = "screen" id = "screen">
-        <table>
+<div class="container">
+    <h1>Calculator by Siddharth Puri</h1>
+    <div class="calculator">
+        <table border="0">
             <tr>
-                <td><button>(</button></td>
+                <td colspan="4">
+                    <input type = "text" name = "screen" id = "screen">
+                </td>
+            </tr>
+            <tr>
+                <td><button id="clear">AC</button></td>
+                <td><button class="">(</button></td>
                 <td><button>)</button></td>
-                <td><button>C</button></td>
                 <td><button>%</button></td>
             </tr>
 
             <tr>
-                <td><button>7</button></td>
-                <td><button>8</button></td>
-                <td><button>9</button></td>
+                <td><button class="numberButton">7</button></td>
+                <td><button class="numberButton">8</button></td>
+                <td><button class="numberButton">9</button></td>
                 <td><button>X</button></td>
             </tr>
             <tr>
-                <td><button>4</button></td>
-                <td><button>5</button></td>
-                <td><button>6</button></td>
+                <td><button class="numberButton">4</button></td>
+                <td><button class="numberButton">5</button></td>
+                <td><button class="numberButton">6</button></td>
                 <td><button>-</button></td>
             </tr>
             <tr>
-                <td><button>1</button></td>
-                <td><button>2</button></td>
-                <td><button>3</button></td>
+                <td><button class="numberButton">1</button></td>
+                <td><button class="numberButton">2</button></td>
+                <td><button class="numberButton">3</button></td>
                 <td><button>+</button></td>
             </tr>
             <tr>
-                <td><button>0</button></td>
-                <td><button>/</button></td>
+                <td><button class="numberButton">0</button></td>
                 <td><button>.</button></td>
-                <td><button>=</button></td>
+                <td colspan="2"><button id="equal">=</button></td>
             </tr>
         </table>
-        </div>
-         
     </div>
-    
+</div>
+
+
+<script src="script.js"></script>
 </body>
-<script src = "index.js"></script>
 </html>
